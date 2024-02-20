@@ -22,7 +22,8 @@ export const About = () => {
   const techStack = [
     { name: "DATA CONNECTION", link: "" },
     { name: "MOBILE PHONE", link: "" },
-    { name: "LAPTOP", link: "" },
+    { name: "PC", link: "" },
+    { name: " OR LAPTOP", link: "" },
       ];
   return (
     <>
