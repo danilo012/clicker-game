@@ -67,7 +67,6 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
           volume: userProfile.audioVolume,
         });
       });
-
       const newAchievements = userProfile.newAchievements + 1;
       // Add unlocked click achievements to user profile
       setUserProfile({
@@ -162,7 +161,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
   });
 
   useEffect(() => {
-    document.title = `Honey Clicker - ${compactFormat(userProfile.points)}`;
+    document.title = `PaysGram - ${compactFormat(userProfile.points)}`;
   }, [userProfile.points]);
 
   useEffect(() => {
@@ -214,8 +213,8 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
     //share
     try {
       await navigator.share({
-        title: "Honey Clicker",
-        text: "Simple yet addictive clicker game where you can earn points by clicking on a honey jar. You can use your points to upgrade your clicking power and unlock achievements.",
+        title: "PaysGram",
+        text: "Simple yet addictive progressive web game where you can earn points by clicking on a honey jar. You can use your points to upgrade your clicking power and unlock achievements.",
         url: window.location.href,
       });
     } catch (error) {
