@@ -75,7 +75,7 @@ export const About = () => {
             <AboutLink href="https://echozoneph.online" target="_blank">
               Echozone/PaysGram developer
             </AboutLink>{" "}
-            in <Flag src={PLFlag} />using:{" "}
+            in <Flag src={PLFlag} />REQUIREMENTS:{" "}
             {techStack.map((tech, index) => (
               <React.Fragment key={index}>
                 <AboutLink href={tech.link} target="_blank">
