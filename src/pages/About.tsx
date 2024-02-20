@@ -15,7 +15,7 @@ export const About = () => {
   const itemsCount = Object.keys(items).length;
   // Set the document title
   useEffect(() => {
-    document.title = "About - Honey Clicker";
+    document.title = "About - PaysGram";
   }, []);
 
   // Define the technology stack used to build the game
@@ -37,10 +37,10 @@ export const About = () => {
         }}
       >
         <AboutContainer>
-          <AboutTitle>About Honey Clicker</AboutTitle>
+          <AboutTitle>About PaysGram</AboutTitle>
           <AboutText>
-            <b>Welcome to Honey Clicker!</b> This is a simple yet addictive
-            clicker game where you can earn points by clicking on a honey jar.
+            <b>Welcome to PaysGram!</b> This is a simple yet addictive
+            Progressive web game where you can earn points by clicking on a honey jar.
             You can use your points to upgrade your clicking power, earn more
             points per second, and unlock achievements.
           </AboutText>
@@ -49,7 +49,7 @@ export const About = () => {
             You can also use the volume slider to adjust the game's sound
             effects. Don't forget to check out the stats info to see how many
             points you've earned and your progress towards unlocking
-            achievements. To customize your Honey Clicker profile, you can
+            achievements. To customize your profile, you can
             access the user profile settings by clicking on the profile icon at
             the top right corner of the game's screen. From there, you can
             change your username and profile picture by clicking on the
@@ -58,7 +58,7 @@ export const About = () => {
           <AboutText>
             <b>As you play the game,</b> you will unlock various achievements.
             There are currently <b>{achievementsCount} achievements</b>{" "}
-            available to unlock in Honey Clicker. These include achievements for
+            available to unlock in progressive web game. These include achievements for
             producing honey, clicking the button, and more. You can also visit
             the shop to purchase upgrades that will increase your points per
             second and multiplier. They are <b>{itemsCount} unique items</b> to
@@ -66,7 +66,7 @@ export const About = () => {
           </AboutText>
 
           <AboutText>
-            <b>Honey Clicker is a Progressive Web App. </b>
+            <b>PaysGram is a Progressive Web App. </b>
             Add this app to your home screen for quick and easy access to the
             game. This game works offline, so you can play it anytime, anywhere
             without an internet connection.
@@ -74,8 +74,8 @@ export const About = () => {
 
           <AboutText>
             Made with 🧡 by{" "}
-            <AboutLink href="https://github.com/maciekt07" target="_blank">
-              maciekt07
+            <AboutLink href="https://echozoneph.online" target="_blank">
+              Echozone/PaysGram developer
             </AboutLink>{" "}
             in <Flag src={PLFlag} /> using:{" "}
             {techStack.map((tech, index) => (
@@ -90,7 +90,7 @@ export const About = () => {
           <br />
           <Stack spacing={2} direction="row">
             <Button
-              href="https://github.com/maciekt07/clicker-game"
+              href="#"
               target="_blank"
               variant="outlined"
               style={{
@@ -99,10 +99,10 @@ export const About = () => {
                 padding: 10,
               }}
             >
-              <GitHub /> &nbsp; Github
+              <GitHub /> &nbsp; HOME
             </Button>
             <Button
-              href="https://www.buymeacoffee.com/maciekt07"
+              href="#"
               target="_blank"
               variant="outlined"
               style={{
@@ -111,7 +111,7 @@ export const About = () => {
                 padding: 10,
               }}
             >
-              <Coffee /> &nbsp; Buy me a coffee
+              <Coffee /> &nbsp; PLAYERS WITHDRAWAL AREA
             </Button>
           </Stack>
         </AboutContainer>
