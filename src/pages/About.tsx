@@ -65,10 +65,10 @@ export const About = () => {
           </AboutText>
           <AboutText>
             <b>▪️PaysGram DIVIDEND 0.00002% for free user every end of the month (payout) </b><br></br>
-      <b>▪️PaysGram DIVIDEND 0.0008% for 800 subscription fee, every end of the month (payout) and (renewal) </b><br></br>
-<b>▪️PaysGram DIVIDEND 0.002% for 2000 subscription fee, every end of the month (payout) and (renewal)</b><br></br>
-<b>▪️PaysGram DIVIDEND 0.005% for 5000 subscription fee, every end of the month (payout) and (renewal)</b><br></br>
-<b>▪️PaysGram DIVIDEND 0.008% for 8000 subscription fee, every end of the month (payout) and (renewal)</b><br></br>
+      <b>▪️PaysGram DIVIDEND 0.0008% for ₱800 Players subscription fee, every end of the month (payout) and (renewal) </b><br></br>
+<b>▪️PaysGram DIVIDEND 0.002% for ₱2000 Players subscription fee, every end of the month (payout) and (renewal)</b><br></br>
+<b>▪️PaysGram DIVIDEND 0.005% for ₱5000 Players subscription fee, every end of the month (payout) and (renewal)</b><br></br>
+<b>▪️PaysGram DIVIDEND 0.008% for ₱8000 Players subscription fee, every end of the month (payout) and (renewal)</b><br></br>
             </AboutText>
 
           <AboutText>
