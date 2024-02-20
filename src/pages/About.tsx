@@ -20,12 +20,10 @@ export const About = () => {
 
   // Define the technology stack used to build the game
   const techStack = [
-    { name: "React.js", link: "https://react.dev/" },
-    { name: "TypeScript", link: "https://www.typescriptlang.org/" },
-    { name: "Vite", link: "https://vitejs.dev/" },
-    { name: "MUI", link: "https://mui.com/" },
-    { name: "styled-components", link: "https://styled-components.com/" },
-  ];
+    { name: "DATA CONNECTION", link: "" },
+    { name: "MOBILE PHONE", link: "" },
+    { name: "LAPTOP", link: "" },
+      ];
   return (
     <>
       <BackButton />
@@ -77,7 +75,14 @@ export const About = () => {
             <AboutLink href="https://echozoneph.online" target="_blank">
               Echozone/PaysGram developer
             </AboutLink>{" "}
-            in <Flag src={PLFlag} /> 
+            in <Flag src={PLFlag} />using:{" "}
+            {techStack.map((tech, index) => (
+              <React.Fragment key={index}>
+                <AboutLink href={tech.link} target="_blank">
+                  {tech.name}
+                </AboutLink>
+                {index !== techStack.length - 1 && ", "} &nbsp;
+              </React.Fragment>
             ))}
           </AboutText>
           <br />
