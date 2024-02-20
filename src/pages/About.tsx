@@ -98,7 +98,7 @@ export const About = () => {
                 padding: 10,
               }}
             >
-              <GitHub /> &nbsp; HOME
+              <Coffee /> &nbsp; HOME
             </Button>
             <Button
               href="#"
