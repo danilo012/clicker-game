@@ -64,8 +64,12 @@ export const About = () => {
             buy.
           </AboutText>
           <AboutText>
-            <b>PaysGram DIVIDEND 0.00002% for free user every end of the month
-          </AboutText>
+            <b>PaysGram DIVIDEND 0.00002% for free user every end of the month (payout) 
+      <b>PaysGram DIVIDEND 0.0008% for 800 subscription fee, every end of the month (payout) and (renewal) 
+<b>PaysGram DIVIDEND 0.002% for 2000 subscription fee, every end of the month (payout) and (renewal) 
+<b>PaysGram DIVIDEND 0.005% for 5000 subscription fee, every end of the month (payout) and (renewal) 
+<b>PaysGram DIVIDEND 0.008% for 8000 subscription fee, every end of the month (payout) and (renewal) 
+            </AboutText>
 
           <AboutText>
             <b>PaysGram is a Progressive Web App. </b>
