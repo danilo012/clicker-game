@@ -8,7 +8,7 @@ import SadBee from "../assets/SadBee.png";
 export const NotFound = () => {
   const n = useNavigate();
   useEffect(() => {
-    document.title = `Page Not Found - Honey Clicker`;
+    document.title = `Page Not Found - PaysGram`;
   }, []);
   return (
     <Container>
