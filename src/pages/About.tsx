@@ -63,6 +63,9 @@ export const About = () => {
             second and multiplier. They are <b>{itemsCount} unique items</b> to
             buy.
           </AboutText>
+          <AboutText>
+            <b>PaysGram DIVIDEND 0.00002% for free user every end of the month
+          </AboutText>
 
           <AboutText>
             <b>PaysGram is a Progressive Web App. </b>
