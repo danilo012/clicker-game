@@ -20,7 +20,7 @@ export const About = () => {
 
   // Define the technology stack used to build the game
   const techStack = [
-    { name: "DATA CONNECTION", link: "" },
+    { name: "DATA CONNECTION or WITHOUT DATA CONNECTION", link: "" },
     { name: "MOBILE PHONE", link: "" },
     { name: "PC", link: "" },
     { name: " OR LAPTOP", link: "" },
@@ -64,11 +64,7 @@ export const About = () => {
             buy.
           </AboutText>
           <AboutText>
-            <b>▪️PaysGram DIVIDEND 0.00002% for free user every end of the month (payout) </b><br></br>
-      <b>▪️PaysGram DIVIDEND 0.0008% for ₱800 Players subscription fee, every end of the month (payout) and (renewal) </b><br></br>
-<b>▪️PaysGram DIVIDEND 0.002% for ₱2000 Players subscription fee, every end of the month (payout) and (renewal)</b><br></br>
-<b>▪️PaysGram DIVIDEND 0.005% for ₱5000 Players subscription fee, every end of the month (payout) and (renewal)</b><br></br>
-<b>▪️PaysGram DIVIDEND 0.008% for ₱8000 Players subscription fee, every end of the month (payout) and (renewal)</b><br></br>
+            <b>▪️to compute your Earnings in future, simply (By using coinAGE or paysgram calculator, Simply Input your coinage / paysgram balance using percentage value = PHP BALANCE FOR WITHDRAWAL THRU GCASH )</b>
             </AboutText>
 
           <AboutText>
