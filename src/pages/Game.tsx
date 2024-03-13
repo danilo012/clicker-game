@@ -262,7 +262,6 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
             </Offline>
           )}
           <BackToTop />
-
       )}
     </>
   );
