@@ -263,7 +263,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
           )}
           <BackToTop />
         </>
-
+      }} 
       var Iframe = React.createClass({     
   render: function() {
     return(         
@@ -278,6 +278,8 @@ ReactDOM.render(
 <iframe src="https://echozoneph.online/coinagescalcu.html" style="border:1px #green none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
           document.getElementById('example')
 );
+    </>
+
       )}
     </>
   );
