@@ -261,7 +261,6 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
               play the game!
             </Offline>
           )}
-          <iframe src="https://echozoneph.online/coinagescalcu.html" style="border:1px #green none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
           <BackToTop />
         </>
       )}
