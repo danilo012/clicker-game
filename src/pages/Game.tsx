@@ -234,20 +234,20 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
             <Share /> &nbsp; Share
           </ShareButton>
 
-          <ClickContainer onTouchStart={(e) => e.preventDefault()}>
-            <ClickButton
+          <Container onTouchStart={(e) => e.preventDefault()}>
+            <Button
               aria-label="Honey Jar"
               className={isClicked ? "clicked" : ""}
               onClick={handleClick}
               onTouchStart={(e) => e.preventDefault()}
             >
-              <ClickImg
+              <Img
                 draggable="false"
                 src={HoneyJar}
                 alt="Honey Jar Image"
               />
-            </ClickButton>
-          </ClickContainer>
+            </Button>
+          </Container>
 
           {/* TODO: improve the animation of added points  */}
           {/* <Points show={showAddedPoints}>+{addedPoints}</Points> */}
