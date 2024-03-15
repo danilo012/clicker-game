@@ -242,7 +242,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
               onTouchStart={(e) => e.preventDefault()}
             >
               <ClickImg
-                draggable="false"
+                draggable="true"
                 src={HoneyJar}
                 alt="Honey Jar Image"
               />
