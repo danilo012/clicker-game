@@ -8,7 +8,7 @@ import {
   Quests,
 } from "../components";
 import {
-  ClickButton,
+
   ClickContainer,
   ClickImg,
   Offline,
