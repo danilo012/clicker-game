@@ -238,8 +238,8 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
             <ClickButton
               aria-label="Honey Jar"
               className={isClicked ? "clicked" : ""}
-              onClick={handleCleck}
-              onTouchStart={(e) => e.preventDefault()}
+              onClick={handleClick}
+              onTouchStart={(e) => e.()}
             >
               <ClickImg
                 draggable="false"
