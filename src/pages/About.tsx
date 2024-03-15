@@ -113,7 +113,7 @@ export const About = () => {
                 padding: 10,
               }}
             >
-              <Coffee /> &nbsp; PLAYERS WITHDRAWAL AREA
+              <Coffee /> &nbsp;  BackButton
             </Button>
           </Stack>
         </AboutContainer>
