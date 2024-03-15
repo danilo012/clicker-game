@@ -41,7 +41,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
     !showAddedPoints && setShowAddedPoints(true);
     //TODO: display the number of added points next to the button after clicking
     // Increment click count
-    setClicks(clicks + 1);
+    setClicks(clicks + 0);
     //animation
 
     if (!isClicked) {
@@ -242,7 +242,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
               onTouchStart={(e) => e.preventDefault()}
             >
               <ClickImg
-                draggable="true"
+                draggable="false"
                 src={HoneyJar}
                 alt="Honey Jar Image"
               />
