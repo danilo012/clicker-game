@@ -8,7 +8,7 @@ import {
   Quests,
 } from "../components";
 import {
-
+ClickButton, 
   ClickContainer,
   ClickImg,
   Offline,
@@ -238,7 +238,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
             <ClickButton
               aria-label="Honey Jar"
               className={isClicked ? "clicked" : ""}
-              onClick={handleClick}
+              onClick={handleCleck}
               onTouchStart={(e) => e.preventDefault()}
             >
               <ClickImg
