@@ -121,7 +121,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
         ...userProfile,
         points: newPoints,
         maxPoints: newMaxPoints,
-       // clicks: clicks,
+       
         achievements: [
           ...userProfile.achievements,
           ...unlockedAchievements.map((achievement) => achievement.name),
@@ -138,7 +138,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
         ...userProfile,
         points: newPoints,
         maxPoints: newMaxPoints,
-        //clicks: clicks,
+        
       });
     }
   };
