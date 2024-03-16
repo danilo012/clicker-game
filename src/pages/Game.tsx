@@ -41,7 +41,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
     !showAddedPoints && setShowAddedPoints(true);
     //TODO: display the number of added points next to the button after clicking
     // Increment click count
-  {/*  setClicks(clicks + 1);*/}
+    {  setClicks(clicks + 1);
     //animation
 
     if (!isClicked) {
@@ -121,7 +121,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
         ...userProfile,
         points: newPoints,
         maxPoints: newMaxPoints,
-        clicks: clicks,
+       {/* clicks: clicks,*/}
         achievements: [
           ...userProfile.achievements,
           ...unlockedAchievements.map((achievement) => achievement.name),
