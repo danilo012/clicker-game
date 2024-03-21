@@ -9,8 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   color-scheme: light;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  backgroundImage: `url("https://media2.giphy.com/media/l1KVbAD8FT0KIQ0cU/giphy.gif?cid=790b7611vmqtfk8fum1olajkzv125uta5rthvsly4s6h2pnk&ep=v1_gifs_search&rid=giphy.gif&ct=g")` 
-    
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
