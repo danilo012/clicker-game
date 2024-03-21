@@ -53,7 +53,7 @@ export const ShareButton = styled.button`
   padding: 14px 22px;
   font-size: 16px;
   border-radius: 20px;
-  background: black;
+  background: #ffffff2f;
   display: flex;
   color: ${colorPalette.orange};
   font-weight: bold;
