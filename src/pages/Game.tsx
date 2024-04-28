@@ -270,20 +270,4 @@ clicks: clicks,
 };
 
 
-    skipAd();
-  }
-});
-
-const startTimer = () => {
-  if (window.scrollY > 100) {
-    showAd();
-    window.removeEventListener('scroll', startTimer);
-  }
-};
-
-if (!document.cookie.match(/^(.*;)?\s*popupCookie\s*=\s*[^;]+(.*)?$/)) {
-  window.addEventListener('scroll', startTimer);
-}</script></body></html>
- 
-	
-	
+    
